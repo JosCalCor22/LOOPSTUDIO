@@ -1,0 +1,105 @@
+.interactive-container {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    max-height: 560px;
+    height: 70vh;
+    width: 100%;
+    margin: 50px 0;
+    background-color: $White-color-Font;
+    img{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__card {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+        padding: 20px;
+        width: 65%;
+        font-weight: 400;
+        background-color: #ffffff;
+        p:first-child {
+            margin-bottom: 30px;
+            font-family: $Title-fonts;
+            font-size: $Title-size;
+            line-height: 50px;
+        }
+        p:last-child {
+            color: #6f6f6f;
+            font-size: 2rem;
+            line-height: 32px;
+            font-family: $Text-fonts;
+        }
+    }
+}
+
+.creations-container__header {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-size: $Title-size;
+        font-family: $Title-fonts;
+    }
+}
+
+.creations-container__btn {
+    display: block;
+    height: 46px;
+    padding: 0px 30px;
+    font-size: 2rem;
+    font-family: $Text-fonts;
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-left-color: rgba(128, 128, 128, .3);
+    border-right-color: rgba(128, 128, 128, .3);
+    border-radius: 2px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.creations-container__btn:hover{
+    border: 3px solid gray;
+    background-color: rgb(128 128 128 / .3);
+}
+
+.creations-container__footer {
+    display: none;
+}
+
+.creations-container__items-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+    margin: 70px 0px;
+
+    &__item {
+        position: relative;
+        transition: all 0.25s;
+
+        &:hover {
+            cursor: crosshair;
+            transform: scale(1.050);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        span {
+            position: absolute;
+            color: #ffffff;
+            bottom: 7%;
+            left: 44%;
+            transform: translateX(-50%);
+            line-height: 110%;
+            font-size: clamp(14px, 2vw, 36px);;
+            font-family: $Text-fonts;
+        }
+    }
+}

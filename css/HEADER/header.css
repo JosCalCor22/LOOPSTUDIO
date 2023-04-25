@@ -1,0 +1,8 @@
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding: 40px 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/desktop/image-hero.jpg");
+}/*# sourceMappingURL=header.css.map */

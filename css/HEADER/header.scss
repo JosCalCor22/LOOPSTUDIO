@@ -1,0 +1,71 @@
+.header{
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    &__background-img {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: 70vh;
+        object-fit: cover;
+        object-position: unset;
+    }
+
+    &__nav{
+        justify-content: space-between;
+        position: absolute;
+        display: flex;
+        padding: 40px 100px;
+        width: 100%;
+        height: min-content;
+
+        &--lista ul{
+            position: relative;
+            z-index: 30;
+            display: flex;
+            gap: 40px;
+            font-weight: 500;
+            font-size: 1.8rem;
+            font-family: $Text-fonts;
+            color: $White-color-Font;
+            li:hover{
+                cursor: pointer;
+                padding-bottom: 5px;
+                transition: all .3s ease-in-out;
+                border-bottom: 3px solid #9200ff;
+            }
+        }
+    }
+
+    &__message{
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        height: 75vh;
+        width: 50%;
+        margin-left: 100px;
+
+        h2{
+            padding: 20px;
+            font-size: 6.0rem;
+            line-height: 55px;
+            font-weight: lighter;
+            color: $White-color-Font;
+            font-family: $Text-fonts;
+            text-transform: uppercase;
+            border: 2px solid $White-color-Font;
+        }
+    }
+    &__menu-hamburger{
+        display: none;
+    }
+    &__section-menu{
+        display: none;
+        animation-name: menu_hamburguer;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.25,1,.85,1);
+    }
+}

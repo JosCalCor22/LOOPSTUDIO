@@ -2,9 +2,9 @@
 
 El proyeco LoopStudio fue tomado de la pagina de desafios FrontMentor, aunque el diseño y todo el croquis fue tomado de allí, la estructuración y creación del proyecto fue totalmente mia. 
 
-Este proyecto lo realice con HTML, CSS y JS. Tambien use del procesador Stylus para realizar todo el diseño, esto se puede encontrar en la caperta de Style.
+Este proyecto lo realice con HTML, CSS y JS. Tambien use del procesador SASS para realizar todo el diseño, esto se puede encontrar en la caperta de Style.
 
-Una de las nuevas cosas que implemente en este proyecto fue, el uso del procesador Stylus y la implementación de display grid, el cual me permitio crear una galeria responsive casi que de manera automatica.
+Una de las nuevas cosas que implemente en este proyecto fue, el uso del preprocesador SASS y la implementación de display grid, el cual me permitio crear una galeria responsive casi que de manera automatica.
 
 El estilo es bastante llamativo y creativo pues en el reto se mostraba un "diseño futurista" y el objetivo principal del desfio era recrear esta pagina sin perder la escensia del estilo y asi fue, al momento que ingreses a la pagina notaras lo mencionado.
 
@@ -20,9 +20,9 @@ Personalmente siento que este proyecto es uno de los mas completos en diseño co
 
 The LoopStudio project was taken from the FrontMentor challenges page, although the design and all the sketches were taken from there, the structuring and creation of the project was entirely mine.
 
-This project is done with HTML, CSS and JS. I also used the Stylus renderer to do all the design, this can be found in the Style tab.
+This project is done with HTML, CSS and JS. I also used the SASS renderer to do all the design, this can be found in the Style tab.
 
-One of the new things that I implemented in this project was the use of the Stylus processor and the implementation of the display grid, which allowed me to create a responsive gallery almost automatically.
+One of the new things that I implemented in this project was the use of the SASS preprocessor and the implementation of the display grid, which allowed me to create a responsive gallery almost automatically.
 
 The style is quite striking and creative because the challenge showed a "futuristic design" and the main objective of the challenge was to recreate this page without losing the essence of the style and that was the case, when you enter the page you will notice what is mentioned.
 
